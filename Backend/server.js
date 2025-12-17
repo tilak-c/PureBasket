@@ -9,7 +9,18 @@ import cartRoutes from './routes/cart.js'
 import orderRoutes from './routes/orders.js';
 dotenv.config();
 const app=express();
-app.use(cors());
+
+const allowedOrigins = [
+  "https://pure-basket-zeta.vercel.app",
+  "http://localhost:3000"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true,
+}));
+
 app.use(express.json())
 
 app.use('/api/auth',authRoutes);
