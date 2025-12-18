@@ -35,7 +35,6 @@ setUser(normalizedUser);
   }
 }
 
-
   async function login({ email, password }) {
   setLoading(true);
   try {
@@ -55,7 +54,6 @@ setUser(normalizedUser);
     setLoading(false);
   }
 }
-
 
   function logout() {
     localStorage.removeItem('user');

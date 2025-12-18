@@ -153,27 +153,26 @@ if (!confirmed.isConfirmed) return;
     }
   }
 
-  async function clearCart() {
-    if (!user){
-      Swal.fire({
-  icon: "warning",
-  title: "Please login",
-  confirmButtonColor: "#0a4a7b",
-});
+      async function clearCart() {
+        if (!user){
+          Swal.fire({
+      icon: "warning",
+      title: "Please login",
+      confirmButtonColor: "#0a4a7b",
+    });
     }
-    const confirmed = await Swal.fire({
-  title: "Clear entire cart?",
-  text: "This cannot be undone.",
-  icon: "warning",
-  showCancelButton: true,
-  confirmButtonText: "Remove",
-  cancelButtonText: "Cancel",
-  confirmButtonColor: "#0a4a7b",
-  cancelButtonColor: "#b5d9f7"
-});
+      const confirmed = await Swal.fire({
+      title: "Clear entire cart?",
+      text: "This cannot be undone.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Remove",
+      cancelButtonText: "Cancel",
+      confirmButtonColor: "#0a4a7b",
+      cancelButtonColor: "#b5d9f7"
+    });
 
-if (!confirmed.isConfirmed) return;
-
+    if (!confirmed.isConfirmed) return;
 
     try {
       const res = await fetch(`${API_BASE}/cart/${user.id}/clear`, {
@@ -218,7 +217,6 @@ if (!confirmed.isConfirmed) return;
 });
 
 if (!confirmed.isConfirmed) return;
-
     setCheckoutLoading(true);
     try {
       const res = await fetch(

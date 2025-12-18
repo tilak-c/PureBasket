@@ -37,17 +37,16 @@ export default function Products() {
   async function handleAddToCart(productId) {
     if (!user) {
       Swal.fire({
-  icon: "error",
-  title: "Something went wrong!",
-  text: "Please login to add items to cart",
-  confirmButtonColor: "#0a4a7b"
-});
-      return;
-    }
+        icon: "error",
+        title: "Something went wrong!",
+        text: "Please login to add items to cart",
+        confirmButtonColor: "#0a4a7b"
+      });
+            return;
+      }
 
     try {
       setAddingId(productId);
-
       const res = await fetch(`${API_BASE}/cart/${user.id}/add`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

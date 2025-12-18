@@ -48,21 +48,18 @@ export default function Profile() {
 
     try {
       const BASE = process.env.REACT_APP_API_BASE || "http://localhost:5001/api";
-      // const url = `${BASE}/users/${user.id}`;
       const userId = user?.id || user?._id;
 
-if (!userId) {
-  Swal.fire({
-  icon: "error",
-  title: "Oops!",
-  text: "Something is wrong: user has no ID",
-  confirmButtonColor: "#0a4a7b"
-});
+      if (!userId) {
+        Swal.fire({
+        icon: "error",
+        title: "Oops!",
+        text: "Something is wrong: user has no ID",
+        confirmButtonColor: "#0a4a7b"
+      });
 
-  return;
-}
-
-
+        return;
+      }
       const url = `${BASE}/users/${userId}`;
       const res = await fetch(url, {
         method: "PUT",
@@ -198,7 +195,7 @@ if (!userId) {
           <p>No previous orders found.</p>
         ) : (
           <ul className="orders-list">
-            {orders.slice(0, 5).map((o) => (
+            {orders.map((o) => (
               <li key={o._id} className="order-item">
                 <div>
                   <strong>Order:</strong> {o._id.slice(-6)}
