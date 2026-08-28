@@ -1,65 +1,65 @@
-# 🛒 PUREBASKET  
-## 🚀 Full-Stack MERN E-Commerce Application  
+# UREBASKET  
+##  Full-Stack MERN E-Commerce Application  
 
 ---
 
-## 📌 Overview  
+##  Overview  
 
 **PureBasket** is a **full-stack e-commerce web application** built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**.
 
 It enables users to:
 
-- 🛍 Browse products  
-- 🛒 Manage shopping carts  
-- 📦 Place orders  
+-  Browse products  
+- Manage shopping carts  
+-  Place orders  
 
 The application simulates a **real-world online grocery platform**, featuring seamless frontend-backend integration and a fully responsive UI.
 
 ---
 
-## 🌐 Live Demo  
+##  Live Demo  
 
-🔗 **Live App:**  
-👉 https://pure-basket-zeta.vercel.app/
-
----
-
-# ✨ Key Features  
+ **Live App:**  
+ https://pure-basket-zeta.vercel.app/
 
 ---
 
-## 🛍 Product Management  
-
-- ✔ **Dynamic product listing** from MongoDB  
-- ✔ **Category-based filtering**  
-- ✔ Individual **product detail view**  
-- ✔ Fully **responsive product grid layout**  
+#  Key Features  
 
 ---
 
-## 🛒 Cart Functionality  
+##  Product Management  
 
-- ✔ Add items to cart  
-- ✔ Update product quantity  
-- ✔ Remove items from cart  
-- ✔ Persistent cart state  
-
----
-
-## 📦 Order Management  
-
-- ✔ Seamless checkout workflow  
-- ✔ Order storage in MongoDB database  
-- ✔ User-specific order history  
+-  **Dynamic product listing** from MongoDB  
+-  **Category-based filtering**  
+-  Individual **product detail view**  
+- Fully **responsive product grid layout**  
 
 ---
 
-# 🛠 Tech Stack  
+## Cart Functionality  
 
-## 🎨 Frontend  
+-  Add items to cart  
+-  Update product quantity  
+-  Remove items from cart  
+-  Persistent cart state  
+
+---
+
+##  Order Management  
+
+-  Seamless checkout workflow  
+-  Order storage in MongoDB database  
+-  User-specific order history  
+
+---
+
+#  Tech Stack  
+
+##  Frontend  
 - **React.js**
 
-## ⚙ Backend  
+##  Backend  
 - **Node.js**  
 - **Express.js**  
 - **MongoDB**  
@@ -72,17 +72,16 @@ The application simulates a **real-world online grocery platform**, featuring se
 
 ---
 
-# 💡 Project Highlights  
+#  Project Highlights  
 
-✔ Demonstrates complete **end-to-end full-stack development**  
-✔ Implements **secure authentication & authorization flows**  
-✔ Follows **RESTful API architecture**  
-✔ Deployed with proper environment configuration  
-✔ Simulates real-world production-level e-commerce logic  
+ Demonstrates complete **end-to-end full-stack development**  
+ Implements **secure authentication & authorization flows**  
+ Follows **RESTful API architecture**  
+ Deployed with proper environment configuration  
+ Simulates real-world production-level e-commerce logic  
 
 ---
 
-## 👩‍💻 Author  
+##  Author  
 
-**Tilakavati Adhireddy**  
-MERN Full Stack Developer  
+**Tilakavati Adhireddy**   
