@@ -4,8 +4,8 @@ export async function createProduct(req,res){
     try{
         const {name,price,imageUrl}=req.body;
         if(!name||price==null||!imageUrl){
-            return res.json({message:"Name,price and imageUrl is required"});
-        }
+              return res.status(400).json({message:"Name,price and imageUrl is required"});
+          }
         const p=await Product.create({name,price,imageUrl});
 
         return res.status(201).json(p);
