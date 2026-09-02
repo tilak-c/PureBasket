@@ -64,7 +64,11 @@ The application simulates a **real-world online grocery platform**, featuring se
 - **Express.js**  
 - **MongoDB**  
 - **Mongoose**
-
+##  Testing
+- **Playwright**
+- **Typescript**
+- **Page Object Model(POM)**
+  
 ## ☁ Deployment  
 - **Frontend:** Vercel  
 - **Backend:** Vercel  
