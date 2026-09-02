@@ -1,5 +1,5 @@
 # PUREBASKET  
-##  Full-Stack MERN E-Commerce Application  
+##  E-Commerce Application  
 
 ---
 
