@@ -69,7 +69,7 @@ The application simulates a **real-world online grocery platform**, featuring se
 - **Typescript**
 - **Page Object Model(POM)**
   
-## ☁ Deployment  
+##  Deployment  
 - **Frontend:** Vercel  
 - **Backend:** Vercel  
 - **Database:** MongoDB Atlas  
